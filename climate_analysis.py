@@ -1,6 +1,6 @@
 climate_data = open('sc_climate_data10.csv', 'r')
 
-""" Climate Analysis Tools 2 """
+""" Climate Analysis Tools 3 """
 import temp_conversion
 import signal
 signal.signal(signal.SIGPIPE,
