@@ -7,6 +7,7 @@ signal.signal(signal.SIGPIPE,
 signal.SIG_DFL)
 import sys
 
+
 filename = sys.argv[1]
 climate_data = open(filename, 'r')
 for line in climate_data:
